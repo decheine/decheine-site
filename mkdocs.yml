@@ -7,8 +7,10 @@ nav:
 
 markdown_extensions:
   - abbr
+  - attr_list
   - fenced_code
   - meta
+  - md_in_html
   - admonition
   - footnotes
   - pymdownx.betterem:
@@ -40,7 +42,18 @@ plugins:
       combined: true # combine all pages into single PDF
       combined_output_path: pdf/websitePage.pdf
 
-theme: material
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 extra_javascript:
   - javascripts/config.js

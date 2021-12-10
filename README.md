@@ -22,40 +22,16 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-## GitLab User or Group Pages
+## Deploying to GitHub Pages
 
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
+The deploy command
 
-You'll need to configure your site too: change this line
-in your `mkdocs.yml`, from `"https://pages.gitlab.io/mkdocs/"` to
-`site_url = "https://namespace.gitlab.io"`.
+```
+mkdocs gh-deploy
+```
 
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
+Must be done after changes have been made to the site. Preview the site and edits locally before deploying. Changes to the repository will not be reflected until the deploy command is run.
 
-## Did you fork this project?
+## TODO
 
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
-
-## Troubleshooting
-
-1. CSS is missing! That means two things:
-
-   Either that you have wrongly set up the CSS URL in your templates, or
-   your static generator has a configuration option that needs to be explicitly
-   set in order to serve static assets under a relative URL.
-
-[ci]: https://about.gitlab.com/gitlab-ci/
-[mkdocs]: http://www.mkdocs.org
-[install]: http://www.mkdocs.org/#installation
-[documentation]: http://www.mkdocs.org
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
-
----
-
-Forked from https://gitlab.com/morph027/mkdocs
+Figure out a way to automatically update the CV file as it changes.
