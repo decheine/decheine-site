@@ -28,7 +28,7 @@ I presented my research on the direct dark matter detection experiment MiniCLEAN
 
 > Abstract: MiniCLEAN is a direct dark matter detection experiment located in SNOLAB, 2km underground near Sudbury Ontario Canada. It is a technology demonstrator for the detection of nuclear recoils from Weakly Interacting Massive Particles (WIMPS), a likely candidate particle for dark matter. For this experiment, Reactor Analysis Tool (RAT), a Monte Carlo simulation tool for liquid scintillator detectors that relies on particle interactions in Geant4 software, is used to simulate the detector environment. We primarily study signal recoil calibrations and background events. I studied the effect of upgrading Geant4 from version 9 to 10 to help decide whether the MiniCLEAN version of RAT should upgrade. In key physical simulations, the outputs of the two versions are consistent and the newer Geant4 version shows better performance.
 
-[Link to Poster PDF](/files/SymposiumPosterFinal.pdf)
+[Link to Poster PDF](./files/SymposiumPosterFinal.pdf)
 
 ### Ricochet Simulations and Software Docs
 
