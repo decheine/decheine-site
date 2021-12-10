@@ -6,6 +6,10 @@ I am a recent graduate of University of Wisconsin-Madison majoring in Physics, A
 
 My interests include particle astrophysics, specifically neutrino physics pursuing study of neutrino oscillations, high energy physics, and dark matter. Outside of physics I love to code fun side projects and build things. See below for some of my research. I also have an interest in graphic design and try to consider good design principles as much as I can when designing two mobile apps and a website I'm working on.
 
+I'm currently applying to graduate school, so you're reading this from a link you found in my CV, hello!
+
+I will add more things to this website overtime.
+
 <br clear="left"/>
 
 ## Contact Info
@@ -47,7 +51,7 @@ Over the summer of 2021, I was accepted to the IRIS-HEP Fellowship to work on a 
 
 ### AD&D 2nd Edition Complete Monstrous Index Resurrection
 
-![Placeholder](img/logotsr.jpg){ align=left width="200" loading=lazy}
+![Placeholder](img/tsr.png){ align=left width="200" loading=lazy}
 
 Many years ago in high school, my friends and I stumbled across a wonderful site by some guy called lomion.de. This website had every monster in Advanced Dungeons & Dragons 2nd Edition, across over 100 source books, with over 2,000 monsters. But sadly in 2016 the site went dark, but it was indexed by the Wayback Machine. With the Wayback Machine, some data tools, lots of regex, and hacky solutions, I resurrected the website. Now I am embarking on a mission to fill out missing gaps the previous author had, and extract all the data from the raw HTML pages into a manageable format like into JSON files. With a custom schema and database of 2nd edition monsters, there are tons of ways it could be used like in website to filter them by their stats.
 
@@ -55,4 +59,4 @@ The full barebones index is already live. However I intend to create a full stac
 
 My GitHub repository [decheine/lomion-de](https://github.com/decheine/lomion-de) hosts the program I’m writing in C++ to extract the data. The the button to go to my live index.
 
-[Monster Indesx]
+[Monster Index](https://decheine.github.io/lomion-de/){align=right .md-button .md-button--primary}

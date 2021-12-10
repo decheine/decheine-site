@@ -48,12 +48,14 @@ theme:
     - scheme: default
       primary: teal
       toggle:
-      icon: material/toggle-switch-off-outline
-      name: Switch to dark mode
-    - scheme: slate
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: redslate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/config.js
