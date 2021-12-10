@@ -39,9 +39,6 @@ plugins:
       enabled_if_env: ENABLE_MKDOCS_PDF #export ENABLE_MKDOCS_PDF=1 if want to generate PDF
       combined: true # combine all pages into single PDF
       combined_output_path: pdf/websitePage.pdf
-  - bibtex:
-      bib_file: "refs.bib"
-      cite_style: "pandoc"
 
 theme: material
 
