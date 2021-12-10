@@ -18,7 +18,7 @@ Email: [decheine@hep.wisc.edu](mailto:decheine@hep.wisc.edu)
 
 ## CV
 
-[Link to my CV](/files/CV_v1.3.pdf)
+[Link to my CV](./files/CV_v1.3.pdf)
 
 ## Research
 
